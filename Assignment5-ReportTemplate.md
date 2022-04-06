@@ -57,8 +57,6 @@
 
 This lab was an enlightening foray into analysis of integration test data using reliability assessment tools. We used two ways to assess failure data: 
 
-
-
 1. Reliability growth testing
 2. Reliability assessment using Reliability Demonstration Chart (RDC)
 
