@@ -61,9 +61,13 @@ We initially started by testing each type of model in C-SFRAT with the covariate
 This graph alone wasn’t enough for us to determine reliability growth. We have to use the predictive tool.
 
 ![unnamed (3)](https://user-images.githubusercontent.com/62816561/162063043-6ed877ac-ed71-4e61-a152-29197bca2c9e.png)
+
 Adding more predictive intervals allowed us to evaluate whether failures were plateauing (becoming less and less). 
+
 ![unnamed (4)](https://user-images.githubusercontent.com/62816561/162063085-af170f1d-a5eb-4643-9830-eac920391f98.png)
+
 Here it is again with 99 intervals predicted. 
+
 ![unnamed (5)](https://user-images.githubusercontent.com/62816561/162063109-9a63582c-6cd2-45d2-b5ca-4cde9e3a9afd.png)
 
 ## A discussion on decision making given a target failure rate 
@@ -80,9 +84,7 @@ Reliability growth analysis excels in estimating and predicting the improvement 
 
 **3 plots for MTTFmin, twice and half of it for your test data**
 
-![unnamed (6)](https://user-images.githubusercontent.com/62816561/162063144-e47207aa-2865-4f00-b7f3-b27e97325f0d.png)
-
-
+![unnamed (11)](https://user-images.githubusercontent.com/62816561/162063336-e0cc62bb-98f2-4e24-b693-a8e4da33db16.png)
 
 ## Explain your evaluation and justification of how you decide the MTTFmin
 
@@ -94,49 +96,27 @@ Secondly, we calculated the average failures per second (assuming that each ‘t
 
 1. Discrimination Ratio = 2, Consumer Risk = 0.1, Developer Risk = 0.1
 
-    
-
-<p id="gdcalert8" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image8.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert9">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image8.png "image_tooltip")
+![unnamed (6)](https://user-images.githubusercontent.com/62816561/162063377-fcb30de2-dca1-45b4-b675-7afb53067807.png)
 
 
 2. Discrimination Ratio = 1.2, Consumer Risk = 0.1, Developer Risk = 0.1
 
-    
-
-<p id="gdcalert9" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image9.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert10">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image9.png "image_tooltip")
+![unnamed (7)](https://user-images.githubusercontent.com/62816561/162063403-d4da0188-a92b-4892-aaa4-d8755d6de58b.png)
 
 
 3. Discrimination Ratio = 2, Consumer Risk = 0.3, Developer Risk = 0.2
 
-    
-
-<p id="gdcalert10" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image10.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert11">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image10.png "image_tooltip")
+![unnamed (8)](https://user-images.githubusercontent.com/62816561/162063418-bbb0e532-8451-41f7-aab7-9b1243d4f912.png)
 
 
 4. Discrimination Ratio = 2, Consumer Risk = 0.2, Developer Risk = 0.5
 
-<p id="gdcalert11" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image11.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert12">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image11.png "image_tooltip")
+![unnamed (9)](https://user-images.githubusercontent.com/62816561/162063434-1e909a28-d1b7-4163-8eb9-54ed45c6c032.png)
 
 
 Finally, we used these values Discrimination Ratio = 2, Consumer Risk = 0.44, Developer Risk = 0.1 to come up with our MTTFmin = 1.4835. We decided that the MTTFmin will be the value where the blue failure data point crosses into the Accept region. 
 
-<p id="gdcalert12" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image12.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert13">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image12.png "image_tooltip")
- 
+![unnamed (10)](https://user-images.githubusercontent.com/62816561/162063449-9101945a-7519-4274-987f-c88ab6d0b9a0.png)
 
 One thing to note is that we were confused why SRTAT only provided us with one ‘Failure Data’ point. We tried inputting our data in multiple ways, including ‘Time Between Failures’ (final), and ‘Failure Count’. No matter which way we mapped and inputted the data to SRTAT, we were only able to produce one blue failure point. We would also like to note that we tried to use the RDC excel sheet provided, to no avail. We weren’t able to produce the correct amount of data points in the RDC demo chart, even after excessive reading of the user guides (both the PDF provided and the section of the sheet called ‘Mode D’emploi’.)
 
