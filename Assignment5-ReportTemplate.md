@@ -74,29 +74,9 @@ We initially started by testing each type of model in C-SFRAT with the covariate
 
 
 ## Plots for failure rate and reliability of the SUT for the test data provided  
-
-
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image1.png "image_tooltip")
-
-
-
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image2.png "image_tooltip")
-
-
-
-
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image3.png "image_tooltip")
+![unnamed](https://user-images.githubusercontent.com/62816561/162062867-fd8e7dd6-5d8d-48fd-83b0-ce423c0e2ae9.png)
+![unnamed (1)](https://user-images.githubusercontent.com/62816561/162062893-45276e71-d47e-460d-8f7e-dff1a72d2ae6.png)
+![unnamed (2)](https://user-images.githubusercontent.com/62816561/162062903-daf014e4-9a54-4c24-a555-e66394bcc05f.png)
 
 
 This graph alone wasn’t enough for us to determine reliability growth. We have to use the predictive tool.
