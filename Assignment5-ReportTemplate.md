@@ -1,23 +1,3 @@
-<p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 0; WARNINGs: 1; ALERTS: 12.</p>
-<ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
-
-<p style="color: red; font-weight: bold">Links to alert messages:</p><a href="#gdcalert1">alert1</a>
-<a href="#gdcalert2">alert2</a>
-<a href="#gdcalert3">alert3</a>
-<a href="#gdcalert4">alert4</a>
-<a href="#gdcalert5">alert5</a>
-<a href="#gdcalert6">alert6</a>
-<a href="#gdcalert7">alert7</a>
-<a href="#gdcalert8">alert8</a>
-<a href="#gdcalert9">alert9</a>
-<a href="#gdcalert10">alert10</a>
-<a href="#gdcalert11">alert11</a>
-<a href="#gdcalert12">alert12</a>
-
-<p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
-
-
-
 <table>
   <tr>
    <td><strong>Group # : 07</strong>
@@ -78,37 +58,13 @@ We initially started by testing each type of model in C-SFRAT with the covariate
 ![unnamed (1)](https://user-images.githubusercontent.com/62816561/162062893-45276e71-d47e-460d-8f7e-dff1a72d2ae6.png)
 ![unnamed (2)](https://user-images.githubusercontent.com/62816561/162062903-daf014e4-9a54-4c24-a555-e66394bcc05f.png)
 
-
 This graph alone wasn’t enough for us to determine reliability growth. We have to use the predictive tool.
 
-
-
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image4.png "image_tooltip")
-
-
+![unnamed (3)](https://user-images.githubusercontent.com/62816561/162063043-6ed877ac-ed71-4e61-a152-29197bca2c9e.png)
 Adding more predictive intervals allowed us to evaluate whether failures were plateauing (becoming less and less). 
-
-
-
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image5.png "image_tooltip")
-
-
+![unnamed (4)](https://user-images.githubusercontent.com/62816561/162063085-af170f1d-a5eb-4643-9830-eac920391f98.png)
 Here it is again with 99 intervals predicted. 
-
-
-
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image6.png "image_tooltip")
-
-
+![unnamed (5)](https://user-images.githubusercontent.com/62816561/162063109-9a63582c-6cd2-45d2-b5ca-4cde9e3a9afd.png)
 
 ## A discussion on decision making given a target failure rate 
 
@@ -124,10 +80,7 @@ Reliability growth analysis excels in estimating and predicting the improvement 
 
 **3 plots for MTTFmin, twice and half of it for your test data**
 
-<p id="gdcalert7" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image7.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image7.png "image_tooltip")
+![unnamed (6)](https://user-images.githubusercontent.com/62816561/162063144-e47207aa-2865-4f00-b7f3-b27e97325f0d.png)
 
 
 
